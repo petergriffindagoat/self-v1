@@ -16,37 +16,41 @@ export default function Footer() {
           <div className="footer-col">
             <h5>Services</h5>
             <ul>
-              <li><Link href="/#services">Local SEO</Link></li>
-              <li><Link href="/#services">Landing pages</Link></li>
-              <li><Link href="/#services">Technical audits</Link></li>
-              <li><Link href="/#services">Review strategy</Link></li>
-              <li><Link href="/#services">Content</Link></li>
+              <li><Link href="/services/local-seo-gbp-optimization">Local SEO &amp; GBP</Link></li>
+              <li><Link href="/services/technical-seo">Technical SEO</Link></li>
+              <li><Link href="/services/content-keyword-strategy">Content &amp; Keywords</Link></li>
+              <li><Link href="/services/multi-location-seo">Multi-Location SEO</Link></li>
+            </ul>
+          </div>
+
+          <div className="footer-col">
+            <h5>Who We Serve</h5>
+            <ul>
+              <li><Link href="/who-we-serve/independent-facility-owners">Independent Owners</Link></li>
+              <li><Link href="/who-we-serve/multi-location-operators">Multi-Location Operators</Link></li>
+              <li><Link href="/who-we-serve/climate-controlled-facilities">Climate-Controlled</Link></li>
+              <li><Link href="/who-we-serve/vehicle-rv-boat-storage">Vehicle, RV &amp; Boat</Link></li>
+              <li><Link href="/who-we-serve/new-facility-openings">New Facility Openings</Link></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h5>Company</h5>
             <ul>
-              <li><Link href="/#process">Our process</Link></li>
-              <li><Link href="/#results">Results</Link></li>
+              <li><Link href="/case-studies">Case Studies</Link></li>
+              <li><Link href="/resources">Resources</Link></li>
+              <li><Link href="/#process">Our Process</Link></li>
               <li><Link href="/#pricing">Pricing</Link></li>
-              <li><Link href="/#faq">FAQ</Link></li>
-            </ul>
-          </div>
-
-          <div className="footer-col">
-            <h5>Get in touch</h5>
-            <ul>
-              <li><Link href="/#contact">Free audit</Link></li>
-              <li><a href="mailto:hello@selfstorage.help">hello@selfstorage.help</a></li>
-              <li><Link href="#">Book a call</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
           <div>© 2026 SelfStorage.help. Operated by MAAI LLC, Wyoming, USA.</div>
-          <div>Privacy · Terms</div>
+          <div>
+            <a href="mailto:hello@selfstorage.help">hello@selfstorage.help</a>
+          </div>
         </div>
       </div>
     </footer>

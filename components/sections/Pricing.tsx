@@ -100,7 +100,7 @@ export default function Pricing({
                   <li key={f}>{f}</li>
                 ))}
               </ul>
-              <button className="price-cta">{plan.ctaLabel}</button>
+              <a href="/contact" className="price-cta">{plan.ctaLabel}</a>
             </div>
           ))}
         </div>
